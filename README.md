@@ -1,4 +1,1 @@
-google_homepage
-===============
-
-Re-create Google Homepage
+Re-create the google homepage for theodinproject.com
