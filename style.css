@@ -1,0 +1,17 @@
+.container {
+	width: 500px;
+	margin-left: 63%;
+}
+li.tab {
+	float: left;
+	padding-left: 20px;
+	font-size: 10pt;
+	font-family: arial;
+}
+ul#navbar {
+	list-style: none;
+}
+#google {
+	height: 80px;
+	width: 247px;
+}
