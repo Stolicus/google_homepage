@@ -2,7 +2,7 @@
 	width: 500px;
 	margin-left: 63%;
 }
-li.tab {
+li.navtab {
 	float: left;
 	padding-left: 20px;
 	font-size: 10pt;
@@ -12,6 +12,49 @@ ul#navbar {
 	list-style: none;
 }
 #google {
-	height: 80px;
-	width: 247px;
+	display: inline-block;
+	margin-top: 150px;
+	margin-left: 540px;
+	height: 98px;
+	width: 267px;
+}
+#searchbar {
+	display: inline-block;
+	width: 550px;
+	margin-top: 15px;
+	margin-left: 390px;
+	height: 23px;
+	padding: 2px 0 2px 7px;
+	font-size: 13pt;
+	border: 1px solid #dcdcdc;
+}
+button#search {
+	margin-left: 565px;
+	margin-top: 15px;
+	width: 98px;
+}
+button#lucky, button#search {
+	height: 29px;
+	background-color: #f4f4f4;
+	font-size:11px;
+	font-family: arial;
+	font-weight: bold;
+	color: #444;
+	padding: 7px;
+	border-radius: 3px 3px 3px 3px;
+	border: 1px solid #dcdcdc;
+}
+button#lucky {
+	margin-left: 10px;
+	width: 114px;
+}
+#search:hover, #lucky:hover {
+	border-top: 1px solid #c6c6c6;
+	border-left: 1px solid #c6c6c6;
+	border-right: 1px solid #c6c6c6;
+	border-bottom: 2px solid #c6c6c6;
+	background: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+#searchbar:hover {
+	border: 1px solid #c6c6c6;
 }
