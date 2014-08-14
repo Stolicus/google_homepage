@@ -1,15 +1,53 @@
-.container {
-	width: 500px;
-	margin-left: 63%;
+div#header {
+	width: 100%;
+	top: 0;
+	position: absolute;
+	margin-left: -10px;
+	height: 50px;
 }
-li.navtab {
-	float: left;
-	padding-left: 20px;
-	font-size: 10pt;
+a.navtab {
+	padding: 0 10px;
+	color: #404040;
+	font-size: small;
 	font-family: arial;
+	text-decoration: none;
+	line-height: 50px;
+	text-align: center;
+
 }
-ul#navbar {
-	list-style: none;
+a#share {
+	display: inline-block;
+	color: #404040;
+	background-color: #f4f4f4;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 8px;
+	height: 23px;
+	width: 60px;
+	vertical-align: middle;
+	cursor: default;
+	font-family: arial;
+	font-size: small;
+	border-radius: 10%;
+}
+a#share:hover {
+	background-color: #eaeaea;
+}
+img#profile {
+	padding: 0 10px;
+
+	vertical-align: middle;
+	display: inline-block;
+	border-radius: 50%;
+	cursor: default;
+	
+}
+a.navtab:hover {
+	text-decoration: underline;
+}
+div#navbar {
+	float: right;
+	width: 30%;
 }
 #google {
 	display: inline-block;
@@ -45,6 +83,7 @@ button#lucky, button#search {
 	border: 1px solid #dcdcdc;
 }
 button#lucky {
+	margin-right: 200px;
 	margin-left: 10px;
 	width: 114px;
 }
@@ -57,4 +96,33 @@ button#lucky {
 }
 #searchbar:hover {
 	border: 1px solid #c6c6c6;
+}
+div#footer {
+	width: 100%;
+	background-color: #f2f2f2;
+	height: 40px;
+	bottom: 0;
+	position: absolute;
+	border: 1px solid #e4e4e4;
+	margin-left: -10px;
+}
+a.left_foot, a.right_foot {
+	padding: 0 20px;
+	font-weight: lighter;
+	text-decoration: none;
+	font-family: arial;
+	color: #666;
+	font-size: small;
+	line-height: 40px;
+	vertical-align: middle;
+	
+}
+a.left_foot:hover, a.right_foot:hover {
+	text-decoration: underline;
+}
+a.left_foot {
+	float: left;
+}
+a.right_foot {
+	float: right;
 }
