@@ -1,3 +1,31 @@
+/*COMMON STYLING*/
+a.navtab,a#share,a.left_foot, a.right_foot {
+	font-size: small;
+	font-family: arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: #404040;
+}
+img#notify,img#apps,a#share,img#profile,a.left_foot,a.right_foot {
+	vertical-align: middle;
+}
+a#share,img#profile,img#google,input#searchbar {
+	display: inline-block;
+}
+button#lucky, button#search {
+	height: 29px;
+	background-color: #f4f4f4;
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	color: #444;
+	padding: 7px;
+	border-radius: 3px 3px 3px 3px;
+	border: 1px solid #dcdcdc;
+}
+
+
+/*HEADER*/
 div#header {
 	width: 100%;
 	top: 0;
@@ -7,40 +35,22 @@ div#header {
 }
 a.navtab {
 	padding: 0 10px;
-	color: #404040;
-	font-size: small;
-	font-family: arial;
-	text-decoration: none;
 	line-height: 50px;
-	text-align: center;
-
 }
 a#share {
-	display: inline-block;
-	color: #404040;
 	background-color: #f4f4f4;
-	text-decoration: none;
-	text-align: center;
 	padding-top: 8px;
 	height: 23px;
 	width: 60px;
-	vertical-align: middle;
 	cursor: default;
-	font-family: arial;
-	font-size: small;
 	border-radius: 10%;
 }
 a#share:hover {
 	background-color: #eaeaea;
 }
 img#profile {
-	padding: 0 10px;
-
-	vertical-align: middle;
-	display: inline-block;
 	border-radius: 50%;
 	cursor: default;
-	
 }
 a.navtab:hover {
 	text-decoration: underline;
@@ -49,15 +59,16 @@ div#navbar {
 	float: right;
 	width: 30%;
 }
-#google {
-	display: inline-block;
+
+
+/*MIDDLE CONTENT*/
+img#google {
 	margin-top: 150px;
 	margin-left: 540px;
 	height: 98px;
 	width: 267px;
 }
-#searchbar {
-	display: inline-block;
+input#searchbar {
 	width: 550px;
 	margin-top: 15px;
 	margin-left: 390px;
@@ -71,32 +82,22 @@ button#search {
 	margin-top: 15px;
 	width: 98px;
 }
-button#lucky, button#search {
-	height: 29px;
-	background-color: #f4f4f4;
-	font-size:11px;
-	font-family: arial;
-	font-weight: bold;
-	color: #444;
-	padding: 7px;
-	border-radius: 3px 3px 3px 3px;
-	border: 1px solid #dcdcdc;
-}
 button#lucky {
 	margin-right: 200px;
 	margin-left: 10px;
 	width: 114px;
 }
-#search:hover, #lucky:hover {
-	border-top: 1px solid #c6c6c6;
-	border-left: 1px solid #c6c6c6;
-	border-right: 1px solid #c6c6c6;
+#search:hover,#lucky:hover {
+	border: 1px solid #c6c6c6;
 	border-bottom: 2px solid #c6c6c6;
 	background: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
 }
 #searchbar:hover {
 	border: 1px solid #c6c6c6;
 }
+
+
+/*FOOTER*/
 div#footer {
 	width: 100%;
 	background-color: #f2f2f2;
@@ -109,13 +110,8 @@ div#footer {
 a.left_foot, a.right_foot {
 	padding: 0 20px;
 	font-weight: lighter;
-	text-decoration: none;
-	font-family: arial;
 	color: #666;
-	font-size: small;
 	line-height: 40px;
-	vertical-align: middle;
-	
 }
 a.left_foot:hover, a.right_foot:hover {
 	text-decoration: underline;
