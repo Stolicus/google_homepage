@@ -1,1 +1,1 @@
-Re-create the google homepage for theodinproject.com
+Re-create the google homepage for <a href="http://www.theodinproject.com/web-development-101/html-css">The Odin Project</a>
